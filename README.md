@@ -1,6 +1,6 @@
 # SOLA: Streamlined Orchestrator for Lab Automation
 
-This is a Hackathon Project for the AI in Motion Hardware Hackathon, This is not the entire codebase, we started to use Discord instead of Github cause one of the Team Members faced an authentication problem with Github: 2-factor authentication. 
+This is a Hackathon Project for the AI in Motion Hardware Hackathon part of SF Deep Tech, This is not the entire codebase, we started to use Discord instead of Github cause one of the Team Members faced an authentication problem with Github: 2-factor authentication. 
 Most of the ROS, Roomba operating code, and robot command code are with my teammates, Scott, and LLM-related code with Ameya and GPT, and chat functionality with Ally.
 
 
