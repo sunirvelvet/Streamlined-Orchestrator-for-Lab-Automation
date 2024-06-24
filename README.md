@@ -11,7 +11,7 @@ High costs of existing lab scheduling software
 Small labs are forced to spin up custom software due to cost & time investment.
 
 
-#status quo
+# Status quo
 3 Major companies in the sector. Monopoly.
 High knowledge barrier to entry->high product costs
 
@@ -27,7 +27,7 @@ Time:
 The significant commonality between laboratory automation hardware used: 60 of systems cover 80% of the market
 
 
-#solution
+# Solution
 Low- tech-overhead workflow lab automation software, using interoperable communication standards (SLIA2 and OPCUALADS)
 
 Streamlined Interface for Custom Machine and Schedule Building
@@ -35,14 +35,14 @@ Streamlined Interface for Custom Machine and Schedule Building
 Community of Lab Automator Researchers to share configurations and process schedules
 
 
-#economic incentive
+# Economic incentive
 Reduce average installation from $80k to $5k per customer.
 
 Reduce setup time from 6+ months to 1 month.
 
 Uncommon machines can be set up quickly with  shared configurations and process schedules
 
-#next steps
+# Next steps
 Build towards full orchestration functionality
 
 Dynamic scheduling at no additional cost to the consumer
