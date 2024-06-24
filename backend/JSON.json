@@ -1,0 +1,88 @@
+{
+    "scheduler": {
+      "tasks": [
+        {
+          "taskId": "T001",
+          "taskName": "Sample Preparation",
+          "description": "Prepare samples for analysis",
+          "startTime": "2024-06-23T09:00:00Z",
+          "endTime": "2024-06-23T10:00:00Z",
+          "equipment": ["Centrifuge", "Pipette"],
+          "assignedTo": "John Doe",
+          "priority": "High",
+          "dependencies": []
+        },
+        {
+          "taskId": "T002",
+          "taskName": "DNA Extraction",
+          "description": "Extract DNA from samples",
+          "startTime": "2024-06-23T10:30:00Z",
+          "endTime": "2024-06-23T12:00:00Z",
+          "equipment": ["DNA Extractor", "PCR Machine"],
+          "assignedTo": "Jane Smith",
+          "priority": "Medium",
+          "dependencies": ["T001"]
+        },
+        {
+          "taskId": "T003",
+          "taskName": "PCR Amplification",
+          "description": "Amplify DNA samples using PCR",
+          "startTime": "2024-06-23T13:00:00Z",
+          "endTime": "2024-06-23T14:30:00Z",
+          "equipment": ["PCR Machine"],
+          "assignedTo": "Jane Smith",
+          "priority": "Medium",
+          "dependencies": ["T002"]
+        },
+        {
+          "taskId": "T004",
+          "taskName": "Data Analysis",
+          "description": "Analyze PCR results",
+          "startTime": "2024-06-23T15:00:00Z",
+          "endTime": "2024-06-23T17:00:00Z",
+          "equipment": ["Computer", "Data Analysis Software"],
+          "assignedTo": "John Doe",
+          "priority": "Low",
+          "dependencies": ["T003"]
+        }
+      ],
+      "equipmentAvailability": {
+        "Centrifuge": [
+          {
+            "availableFrom": "2024-06-23T09:00:00Z",
+            "availableTo": "2024-06-23T12:00:00Z"
+          }
+        ],
+        "Pipette": [
+          {
+            "availableFrom": "2024-06-23T09:00:00Z",
+            "availableTo": "2024-06-23T10:00:00Z"
+          }
+        ],
+        "DNA Extractor": [
+          {
+            "availableFrom": "2024-06-23T10:30:00Z",
+            "availableTo": "2024-06-23T12:00:00Z"
+          }
+        ],
+        "PCR Machine": [
+          {
+            "availableFrom": "2024-06-23T10:30:00Z",
+            "availableTo": "2024-06-23T14:30:00Z"
+          }
+        ],
+        "Computer": [
+          {
+            "availableFrom": "2024-06-23T09:00:00Z",
+            "availableTo": "2024-06-23T17:00:00Z"
+          }
+        ],
+        "Data Analysis Software": [
+          {
+            "availableFrom": "2024-06-23T15:00:00Z",
+            "availableTo": "2024-06-23T17:00:00Z"
+          }
+        ]
+      }
+    }
+  }
